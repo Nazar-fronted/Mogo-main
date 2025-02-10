@@ -24,7 +24,9 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 
-    outline: 2px dashed red;
+    
+
+   
 }
 .nav-link:hover{ 
     font-family: "Montserrat", sans-serif; 
@@ -134,4 +136,37 @@ ul{
     align-items: flex-start;
     width: 366px;
     margin-bottom: 100px;
+}
+.services-item-wrap{
+
+}
+.services-line,
+.team-line{
+    background-color: var(--red-color);
+    height: 4px;
+    width: 60px;
+    margin: 40px auto 65px auto;
+}
+.team-line{
+    margin-bottom: 40px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    margin: 0;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+
+    border-top: 1px solid var(--light-wight-color);
+}
+.services{
+    margin-top: 70px;
 }
